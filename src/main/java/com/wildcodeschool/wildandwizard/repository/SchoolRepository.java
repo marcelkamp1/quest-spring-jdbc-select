@@ -1,3 +1,14 @@
+// Privileges for h4rryp0tt3r
+/*
+mysql> SHOW GRANTS FOR 'h4rryp0tt3r'@'localhost';
++----------------------------------------------------------------------------+
+| Grants for h4rryp0tt3r@localhost                                           |
++----------------------------------------------------------------------------+
+| GRANT USAGE ON *.* TO 'h4rryp0tt3r'@'localhost'                            |
+| GRANT ALL PRIVILEGES ON `spring_jdbc_quest`.* TO 'h4rryp0tt3r'@'localhost' |
++----------------------------------------------------------------------------+
+*/
+
 package com.wildcodeschool.wildandwizard.repository;
 
 import java.sql.Connection;
